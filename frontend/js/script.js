@@ -389,7 +389,7 @@ const handleLogin = (event) => {
     login.style.display = "none";
     chat.style.display = "flex";
 
-    websocket = new WebSocket( "wss://chat-backend-psj5.onrender.com");
+    websocket = new WebSocket( "wss://chat-backend-cyeu.onrender.com");
     websocket.onmessage = processMessage;
 }
 
